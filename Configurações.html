@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações - Mundo dos Elementos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-lateral">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Formulario.html">Cadastro</a></li>
+                <li><a href="Teste.html">Teste</a></li>
+                <li><a href="Personagens.html">Personagens</a></li>
+                <li><a href="Configurações.html">Configurações</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <main>
+        <h1>Configurações</h1>
+        <p>Personalize sua experiência no site ajustando as configurações abaixo:</p>
+        
+        <form action="#" method="post">
+            <!-- Idioma -->
+            <label for="idioma">Idioma:</label>
+            <select name="idioma" id="idioma">
+                <option value="pt-BR">Português (Brasil)</option>
+                <option value="en-US">Inglês (Estados Unidos)</option>
+                <option value="es-ES">Espanhol</option>
+            </select><br><br>
+            
+            <!-- Brilho -->
+            <label for="brilho">Brilho:</label>
+            <input type="range" id="brilho" name="brilho" min="0" max="100" value="50"><br><br>
+            
+            <!-- Volume -->
+            <label for="volume">Volume:</label>
+            <input type="range" id="volume" name="volume" min="0" max="100" value="50"><br><br>
+
+            <!-- Tamanho da Fonte -->
+            <label for="fonte">Tamanho da Fonte:</label>
+            <input type="range" id="fonte" name="fonte" min="12" max="32" value="16"><br><br>
+
+            <!-- Tema -->
+            <label for="tema">Tema:</label>
+            <select name="tema" id="tema">
+                <option value="claro">Claro</option>
+                <option value="escuro">Escuro</option>
+            </select><br><br>
+
+            <!-- Tipo de Fonte -->
+            <label for="tipo-fonte">Tipo de Fonte:</label>
+            <select name="tipo-fonte" id="tipo-fonte">
+                <option value="Arial">Arial</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Courier New">Courier New</option>
+            </select><br><br>
+
+            <button type="submit" class="btn-salvar">Salvar Configurações</button>
+        </form>
+    </main>
+</body>
+</html>

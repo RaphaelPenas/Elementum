@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Mundo dos Elementos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-lateral">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Formulario.html">Cadastro</a></li>
+                <li><a href="Teste.html">Teste</a></li>
+                <li><a href="Personagens.html">Personagens</a></li>
+                <li><a href="Configurações.html">Configurações</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1>Teste Elementum</h1>
+        <form action="#" method="post">
+            <label for="elemento">Escolha seu Elemento:</label>
+            <select id="elemento" name="elemento" required>
+                <option value="--">--</option> 
+                <option value="terra">Terra</option>
+                <option value="ar">Ar</option>
+                <option value="agua">Água</option>
+                <option value="fogo">Fogo</option>
+                <option value="raio">Raio</option>
+            </select>
+            <br><br>
+
+            <h3>Responda as perguntas abaixo sobre sua personalidade:</h3>
+
+            <label for="pergunta1">1. Como você se sente em ambientes agitados?</label><br>
+            <input type="radio" id="pergunta1a" name="pergunta1" value="calmo">
+            <label for="pergunta1a">Calmo e centrado</label><br>
+            <input type="radio" id="pergunta1b" name="pergunta1" value="ansioso">
+            <label for="pergunta1b">Ansioso e desconfortável</label><br>
+            <input type="radio" id="pergunta1c" name="pergunta1" value="energico">
+            <label for="pergunta1c">Energizado e motivado</label>
+            <br><br>
+
+            <label for="pergunta2">2. Como você lida com mudanças inesperadas?</label><br>
+            <input type="radio" id="pergunta2a" name="pergunta2" value="adaptavel">
+            <label for="pergunta2a">Me adapto rapidamente</label><br>
+            <input type="radio" id="pergunta2b" name="pergunta2" value="nervoso">
+            <label for="pergunta2b">Fico nervoso e desorientado</label><br>
+            <input type="radio" id="pergunta2c" name="pergunta2" value="organizado">
+            <label for="pergunta2c">Tento organizar as coisas para me sentir seguro</label>
+            <br><br>
+
+            <label for="pergunta3">3. O que mais lhe atrai em uma atividade?</label><br>
+            <input type="radio" id="pergunta3a" name="pergunta3" value="intensidade">
+            <label for="pergunta3a">Intensidade e ação</label><br>
+            <input type="radio" id="pergunta3b" name="pergunta3" value="reflexao">
+            <label for="pergunta3b">Reflexão e calma</label><br>
+            <input type="radio" id="pergunta3c" name="pergunta3" value="desafios">
+            <label for="pergunta3c">Desafios e novas experiências</label>
+            <br><br>
+
+            <label for="pergunta4">4. Quando se depara com um problema, o que você faz?</label><br>
+            <input type="radio" id="pergunta4a" name="pergunta4" value="analitico">
+            <label for="pergunta4a">Analiso cuidadosamente antes de agir</label><br>
+            <input type="radio" id="pergunta4b" name="pergunta4" value="emocional">
+            <label for="pergunta4b">Deixo minhas emoções guiarem minha ação</label><br>
+            <input type="radio" id="pergunta4c" name="pergunta4" value="pratico">
+            <label for="pergunta4c">Ajo rapidamente sem pensar muito</label>
+            <br><br>
+
+            <label for="pergunta5">5. Como você se descreve em uma palavra?</label><br>
+            <input type="radio" id="pergunta5a" name="pergunta5" value="calmo">
+            <label for="pergunta5a">Calmo</label><br>
+            <input type="radio" id="pergunta5b" name="pergunta5" value="ativo">
+            <label for="pergunta5b">Ativo</label><br>
+            <input type="radio" id="pergunta5c" name="pergunta5" value="criativo">
+            <label for="pergunta5c">Criativo</label>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
